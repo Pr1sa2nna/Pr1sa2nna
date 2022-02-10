@@ -1,0 +1,11 @@
+Sno=int (input ('enter student no:'))
+Sname=input ('enter student name:') 
+Sgroup=input (' enter student group:')
+S1=int (input ('maths marks:'))
+S2=int (input ('pysics marks:'))
+S3=int (input ('computers marks:'))
+S4=int (input (' telugu marks:'))
+S5=int ( input (' english marks:'))
+S6=int (input ('online business marks:'))
+
+
