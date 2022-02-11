@@ -1,0 +1,9 @@
+n= int( input()) 
+If n%2==1:
+  Print ('werid')
+Elif n>=2 and n<=5: 
+  Print ('Not werid')
+Elif n>=6 and n<=20:
+  Print ('werid')
+Elif n>20:
+  Print ('Not werid')
