@@ -1,0 +1,14 @@
+def fibsum(n): 
+If n==1 or n==0 
+     print (n) 
+else: 
+     sum=0
+     a=0 
+     b=1 
+     sum=a+b 
+for I in range (2,n+1): 
+     c=a+b 
+     sum+=c 
+     a=b 
+     b=c 
+Print (sum)
