@@ -1,0 +1,14 @@
+n=int(input ('enter number') 
+for I in range (1,n+1): 
+   for j in range (1,n-i+2): 
+      Print ('*',end=" ") 
+Print ("\n") 
+
+
+
+O/P 
+* * * * * 
+* * * * 
+* * * 
+* * 
+*
