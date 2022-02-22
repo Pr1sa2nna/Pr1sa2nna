@@ -1,0 +1,24 @@
+n=int(input ('enter numbers:')) 
+count=1 
+for I in range (1,n+1): 
+     for j in range (1,I+1): 
+         print(j,end=" ")
+         count+=1 
+     print("\n") 
+count=1 
+for I in range (1,n+1): 
+    for j in range (1,j): 
+         print(j,end=" ") 
+         count+=1 
+    print("\n") 
+   
+
+O/P 
+Enter number=4 
+1
+1  2
+1  2  3
+1  2  3  4
+1  2  3
+1  2
+1
