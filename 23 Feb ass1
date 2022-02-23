@@ -1,0 +1,29 @@
+l=[] 
+n=int(input ('enter n'))
+for I in range (n):
+    e=int(input ()) 
+    l.append(e) 
+max=l[0] 
+for I in range (1,n):
+    if l[I]>max:
+       max=l[I] 
+print(max)
+min=l[0] 
+for I in range (1,n):
+    if l[I]<min:
+        min=l[I] 
+print(min)
+
+
+
+O/P
+enter n 6
+5
+1
+2
+3
+4
+0
+
+Max=5
+Min=0
