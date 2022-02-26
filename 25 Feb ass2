@@ -1,0 +1,31 @@
+n=int(input ('enter n')) 
+l=[] 
+t=[] 
+for I in range (n): 
+     x=int(input ()) 
+     l.append(x) 
+x=0 
+for I in range (n):
+    if l[I]>=0: 
+       t.append(l[I]) 
+       x=x+1  
+for I in range(x,n) 
+    t.append(0) 
+print(t) 
+c=0 
+for I in l: 
+    if l[I]>0: 
+       c=c+1 
+print(c) 
+
+
+
+O/P 
+Enter n 4 
+1
+0
+2
+0
+
+[1,2] 
+C=2
