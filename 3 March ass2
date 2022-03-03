@@ -1,0 +1,9 @@
+tuple 1=("a","b","c")
+tuple 2=("1","2","3")
+tuple 3=tuple 1+tuple 2 
+Print (tuple 3) 
+  
+
+
+O/P  
+('a','b','c','1','2','3')
