@@ -1,0 +1,25 @@
+n=int(input ()) 
+l=input().split() 
+print(l) 
+t=[] 
+for I in l: 
+     t.append(int(I)) 
+print(t) 
+x=[] 
+for I in t: 
+      if I not in x: 
+          x.append(I) 
+print(x) 
+x.sort(reverse= True) 
+print(x) 
+print(x[2]) 
+  
+
+O/P 
+6 
+7 8 2 4 6 8 9 
+['7','8','2','4','6','8','9'] 
+[7,8,2,4,6,8,9]  
+[7,8,2,4,6,9] 
+[9,8,7,6,4,2]  
+7
