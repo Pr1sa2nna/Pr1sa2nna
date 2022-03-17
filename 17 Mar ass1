@@ -1,0 +1,25 @@
+s=input () 
+l=list(s) 
+x=[] 
+for I in l: 
+     if I=='a' or I=='A': 
+         Continue  
+     if I=='e' or I=='E': 
+         Continue 
+     if I=='i' or I=='I': 
+         Continue 
+     if I=='o' or I=='O': 
+         Continue 
+     if I=='u' or I=='U': 
+         Continue 
+     else: 
+          x.append(I)  
+for I in x: 
+    print (I,end='') 
+
+
+
+O/P 
+ADITYA 
+DTY 
+
