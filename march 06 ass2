@@ -1,0 +1,15 @@
+E={1:['rakesh','counter','12/01/2019',10000,'narayanapuram'],2:['radha','manager','10/11/2017',25000,'narayanapuram'],3:['kohli','director','10/10/2015',35000,'narayanapuram']}
+x=int(input('enter the employee no:'))
+print('name of the employee:', E[x][0])
+print('disgnation:', E[x][1])
+print('date of join:', E[x][2])
+print('salary:',E[x][3])
+print('city:',E[x][4])
+
+
+
+o/p
+disgnation: director
+date of join: 10/10/2015
+salary: 35000
+city: narayanapuram
