@@ -1,0 +1,16 @@
+
+s={1:['prasanna','female','mpcs','pass'],2:['radha','female','mpcs','pass'],3:['kohli','male','mpc','fail']}
+x=int(input('enter the student no:'))
+print('name of the student:', s[x][0])
+print('gender:', s[x][1])
+print('group:', s[x][2])
+print('result:',s[x][3])
+
+
+
+o/p
+name of the student: prasanna
+gender: female
+group: mpcs
+result: pass
+
